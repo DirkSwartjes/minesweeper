@@ -1,6 +1,6 @@
 import classes from './cell.module.css';
 
-const Cell = () => (
+const Cell: React.FC = () => (
   <div className={classes.cell} />
 );
 

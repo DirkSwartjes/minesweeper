@@ -1,5 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+/// <reference types="vitest" />
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 import path from 'path';
 import * as tsPaths from './tsconfig.paths.json';
 
@@ -19,5 +20,10 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: mappedPaths,
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './vitest.setup.ts'
   }
 });

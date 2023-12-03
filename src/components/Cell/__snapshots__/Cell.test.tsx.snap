@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cell component > renders correctly 1`] = `
+<div>
+  <div
+    class="_cell_f9220d"
+  />
+</div>
+`;
