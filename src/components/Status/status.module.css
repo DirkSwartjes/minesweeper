@@ -1,0 +1,8 @@
+.status {
+  width: 25px;
+  height: 25px;
+  border: 2px solid;
+  border-color: var(--border-secondary) var(--border-primary) var(--border-primary) var(--border-secondary);
+  background-repeat: no-repeat;
+  background-position: center center;
+}

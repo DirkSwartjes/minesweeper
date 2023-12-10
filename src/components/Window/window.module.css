@@ -1,3 +1,4 @@
 .window {
   border: 5px solid var(--ui-primary);
+  background-color: var(--ui-primary);
 }

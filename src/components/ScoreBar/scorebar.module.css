@@ -1,0 +1,9 @@
+.scorebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid;
+  border-color: var(--border-primary) var(--border-secondary) var(--border-secondary) var(--border-primary);
+  margin-bottom: 5px;
+  padding: 3px;
+}

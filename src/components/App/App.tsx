@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { Window, Minefield, Cell } from '@components';
+import { Window, Minefield, Cell, ScoreBar } from '@components';
 import classes from './app.module.css';
 
 const App: React.FC = () => {
@@ -14,6 +14,7 @@ const App: React.FC = () => {
   return (
     <div className={classes.app}>
       <Window>
+        <ScoreBar />
         <Minefield
           mines={mines}
           columns={columns}
